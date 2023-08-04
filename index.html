@@ -337,11 +337,11 @@ nav a:hover {
   <h2>Contact Me</h2>
   <form action="https://formsubmit.co/kakweziamina@gmail.com" method="POST">
     <label for="name">Name</label>
-    <input type="text" name="name" required placeholder="Name:" autocomplete="off" max-length="15">
+    <input type="text" name="name" required placeholder="Name:" autocomplete="off" minlength="2" maxlength="15">
     <label for="email">Email</label>
-    <input type="email" name="email" placeholder="Email Address:" autocomplete="off" max-length="25">
+    <input type="email" name="email" placeholder="Email Address:" autocomplete="off" minlength="5" maxlength="25">
     <label for="message">Message</label>
-    <input type="text" name="message" placeholder="Write your message:" autocomplete="off" max-length="500">
+    <input type="text" name="message" placeholder="Write your message:" autocomplete="off" maxlength="500">
    
     <input type="hidden" name="_subject" value="Shylap! New Email">
     <input type="hidden" name="_captcha" value="false">
